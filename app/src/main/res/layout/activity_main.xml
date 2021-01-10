@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/MyOrder"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="638dp"
+        android:clickable="true"
+        android:onClick="onClickMyOrder"
+        android:text="My Order" />
+
+    <Button
+        android:id="@+id/DrinksButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="254dp"
+        android:layout_marginBottom="526dp"
+        android:onClick="onClickButtonDrink" />
+
+    <Button
+        android:id="@+id/SnacksButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="524dp" />
+
+    <Button
+        android:id="@+id/FoodsButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="257dp"
+        android:layout_marginBottom="352dp" />
+
+    <Button
+        android:id="@+id/TopUpButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="352dp" />
+
+    <TextView
+        android:id="@+id/DrinksTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="287dp"
+        android:layout_marginBottom="492dp"
+        android:text="Drinks" />
+
+    <TextView
+        android:id="@+id/SnacksTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="83dp"
+        android:layout_marginBottom="497dp"
+        android:text="Snacks" />
+
+    <TextView
+        android:id="@+id/FoodsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="286dp"
+        android:layout_marginBottom="327dp"
+        android:text="Foods" />
+
+    <TextView
+        android:id="@+id/TopUpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="86dp"
+        android:layout_marginBottom="326dp"
+        android:text="TopUp" />
+
+</RelativeLayout>

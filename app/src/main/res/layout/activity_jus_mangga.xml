@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JusMangga">
+
+    <TextView
+        android:id="@+id/JusManggaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="254dp"
+        android:layout_marginBottom="504dp"
+        android:text="Jus Mangga\n Rp 123"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <ImageButton
+        android:id="@+id/JusManggaIncrement"
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="231dp"
+        android:layout_marginBottom="461dp"
+        android:onClick="onClickButtonManggaInc" />
+
+    <EditText
+        android:id="@+id/JusManggaNumber"
+        android:layout_width="33dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="274dp"
+        android:layout_marginBottom="456dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="0" />
+
+    <ImageButton
+        android:id="@+id/JusManggaDecrement"
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="318dp"
+        android:layout_marginBottom="461dp"
+        android:onClick="onClickButtonManggaDec" />
+
+    <Button
+        android:id="@+id/MyOrder"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="638dp"
+        android:clickable="true"
+        android:onClick="onClickMyOrder"
+        android:text="My Order" />
+
+    <Button
+        android:id="@+id/BackHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="38dp"
+        android:text="Order More"
+        android:clickable="true"
+        android:onClick="onClickButtonDrinks" />
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderComplete">
+
+    <Button
+        android:id="@+id/BackHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="612dp"
+        android:clickable="true"
+        android:text="Menu Utama"
+        android:onClick="onClickDrinks" />
+
+    <TextView
+        android:id="@+id/MyOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Your order completed.\nThank You\n"/>
+
+    <TextView
+        android:id="@+id/TotalBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MyOrder"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:visibility="visible"/>
+
+
+    <TextView
+        android:id="@+id/AirMineralTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TotalBar"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/JusApelTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AirMineralTotal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/JusManggaTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/JusApelTotal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/JusAlpukatTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/JusManggaTotal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        android:text=""/>
+
+</RelativeLayout>

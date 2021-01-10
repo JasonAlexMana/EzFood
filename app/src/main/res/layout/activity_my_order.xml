@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyOrder">
+
+    <Button
+        android:id="@+id/PayNow"
+        android:layout_width="106dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="613dp"
+        android:clickable="true"
+        android:onClick="onClickOrderComplete"
+        android:text="Pay Now" />
+
+    <TextView
+        android:id="@+id/MyOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="My Order" />
+
+    <TextView
+        android:id="@+id/TotalBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MyOrder"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/AirMineralTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TotalBar"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:visibility="gone"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/JusApelTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AirMineralTotal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:visibility="gone"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/JusManggaTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/JusApelTotal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:visibility="gone"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/JusAlpukatTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/JusManggaTotal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:visibility="gone"
+        android:text="" />
+
+    <Button
+        android:id="@+id/DeleteAirMineral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TotalBar"
+        android:layout_toRightOf="@id/AirMineralTotal"
+        android:layout_marginLeft="15dp"
+        android:visibility="gone"
+        android:onClick="onClickDeleteAir"
+        android:text="Hapus" />
+
+    <Button
+        android:id="@+id/DeleteJusApel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AirMineralTotal"
+        android:layout_toRightOf="@id/JusApelTotal"
+        android:layout_marginLeft="30dp"
+        android:visibility="gone"
+        android:onClick="onClickDeleteApel"
+        android:text="Hapus" />
+
+    <Button
+        android:id="@+id/DeleteJusMangga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/JusApelTotal"
+        android:layout_toRightOf="@id/JusManggaTotal"
+        android:layout_marginLeft="7dp"
+        android:visibility="gone"
+        android:onClick="onClickDeleteMangga"
+        android:text="Hapus" />
+
+    <Button
+        android:id="@+id/DeleteJusAlpukat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/JusManggaTotal"
+        android:layout_toRightOf="@id/JusAlpukatTotal"
+        android:layout_marginLeft="9dp"
+        android:visibility="gone"
+        android:onClick="onClickDeleteAlpukat"
+        android:text="Hapus" />
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Drinks">
+
+    <Button
+        android:id="@+id/MyOrder"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="638dp"
+        android:clickable="true"
+        android:onClick="onClickMyOrder"
+        android:text="My Order" />
+
+    <Button
+        android:id="@+id/Air"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="254dp"
+        android:layout_marginBottom="526dp"
+        android:onClick="onClickAirMineral" />
+
+    <Button
+        android:id="@+id/Apel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="524dp"
+        android:onClick="onClickJusApel" />
+
+    <Button
+        android:id="@+id/Mangga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="257dp"
+        android:layout_marginBottom="352dp"
+        android:onClick="onClickJusMangga" />
+
+    <Button
+        android:id="@+id/Alpukat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="352dp"
+        android:onClick="onClickJusAlpukat" />
+
+    <TextView
+        android:id="@+id/AirMineralTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="264dp"
+        android:layout_marginBottom="485dp"
+        android:text="Air Mineral\n Rp 123" />
+
+    <TextView
+        android:id="@+id/JusApelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="484dp"
+        android:text="Jus Apel\n Rp 123" />
+
+    <TextView
+        android:id="@+id/JusManggaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="262dp"
+        android:layout_marginBottom="307dp"
+        android:text="Jus Mangga\n Rp 123" />
+
+    <TextView
+        android:id="@+id/JusAlpukatTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="67dp"
+        android:layout_marginBottom="310dp"
+        android:text="Jus Alpukat\n Rp 123" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Snacks">
+    <Button
+        android:id="@+id/my_order3_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickMyOrder3"
+        android:text="My Order"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_red_light" />
+    <Button
+        android:id="@+id/Biscuits_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="35dp"
+        android:onClick="onClickBiscuits"
+        android:text="Biscuits\nRp 123"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/Chocolates_Chocolates_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Biscuits_button"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickChocolates"
+        android:text="Chocolates Chocolates\nRp 123"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/Icecream_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Biscuits_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="35dp"
+        android:onClick="onClickIcecream"
+        android:text="Icecream\nRp 123"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/Fruits__button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Chocolates_Chocolates_button"
+        android:layout_toRightOf="@+id/Icecream_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClickFruits"
+        android:text="Fruits \nRp 123"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_light" />
+</RelativeLayout>
